@@ -743,6 +743,7 @@ button:focus-visible {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s var(--ease);
+    z-index: 999;
   }
 
   .main-nav.is-open {
